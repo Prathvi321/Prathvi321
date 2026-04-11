@@ -136,16 +136,6 @@ if __name__ == "__main__":
 
 ---
 
-## 🏆 Achievements
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Prathvi321&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
 ## 🌱 Currently Exploring
 
 <div align="center">
