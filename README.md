@@ -1,12 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00D4FF,100:0D1117&height=200&section=header&text=Prathvi%20Singh%20Thakur&fontSize=48&fontColor=FFFFFF&fontAlignY=35&desc=Full-Stack%20Developer%20%E2%80%A2%20AI%2FML%20Engineer%20%E2%80%A2%20Founder%2C%20Sagar%20Sync&descAlignY=60&descSize=18&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00D4FF,100:0D1117&height=200&section=header&text=Prathvi%20Singh%20Thakur&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%A2%20AI%2FML%20Engineer%20%E2%80%A2%20Founder&descSize=18&descAlignY=58&descAlign=50" />
 
-</div>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&multiline=false&width=650&lines=Building+scalable%2C+cost-optimized+web+solutions+%F0%9F%9A%80;Turning+data+into+decisions+%F0%9F%93%8A;Open+source+%7C+MLOps+%7C+Full-Stack+%F0%9F%A7%A0;From+Sagar%2C+Madhya+Pradesh+%E2%80%94+to+the+world+%F0%9F%8C%8D" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&multiline=false&width=650&lines=Building+scalable+web+solutions;Engineering+ML+and+MLOps+systems;Contributing+to+open-source+projects" />
 
 </div>
 
@@ -45,22 +41,24 @@ class Prathvi:
 
     def say_hello(self):
         print(f"Hey! I'm {self.name}")
-        print(f"I build scalable, cost-optimized web solutions 🚀")
-        print(f"Always building. Always learning.")
+        print("I build scalable, cost-optimized web solutions 🚀")
+        print("Always building. Always learning.")
 
 if __name__ == "__main__":
     me = Prathvi()
     me.say_hello()
 ```
 
-> Driven **Full-Stack Developer** and **Founder of Sagar Sync** — a digital agency delivering end-to-end web solutions, branding, and automation for local enterprises. I'm also a **polymath engineer** at the intersection of **AI**, **data science**, and **software engineering**, with an open-source MLOps package on PyPI. I love turning raw data into intelligent systems — and turning ideas into real, shipped products.
+> Driven **Full-Stack Developer** and **Founder of Sagar Sync** — a digital agency delivering end-to-end web solutions, branding, and automation for local enterprises. I'm also a **polymath engineer** interested in the intersections of AI/ML, physics, IoT, and sustainable software.
 
 ---
 
 ## 💼 Experience
 
 **Founder & Lead Developer — Sagar Sync** · 2025 – Present · Sagar, MP (Remote)
+
 Digital agency offering full-stack web development, UI/UX, branding, and automation services.
+
 - Founded and scaled a 5-person digital agency, delivering projects for 8 clients from local enterprises
 - Architected cost-zero production websites using **React + Vercel + Google Sheets + Resend API**, eliminating monthly server costs
 - Led client discovery, scoping, delivery, and post-launch support — functioning as both PM and lead engineer
@@ -68,6 +66,7 @@ Digital agency offering full-stack web development, UI/UX, branding, and automat
 - Automated client email workflows using **Google Apps Script + Resend**, cutting manual follow-up time by ~80%
 
 **Open-Source Author — PyPI (`driftguard-prathvi`)** · 2024 – Present · Remote
+
 - Designed and published **DriftGuard**, a Python MLOps framework for automated data validation and statistical drift detection
 - Implemented Kolmogorov–Smirnov tests for distribution-shift detection in production ML pipelines
 - Achieved comprehensive test coverage via Pytest; package available publicly on PyPI
@@ -126,17 +125,35 @@ Digital agency offering full-stack web development, UI/UX, branding, and automat
 
 ---
 
+## 🤝 Recent Open-Source Contributions
+
+<div align="center">
+
+| Pull Request | Repository | Contribution | Status |
+|:---|:---|:---|:---:|
+| [REA UI, SEO & GEO enhancements](https://github.com/morluto/rea/pull/12749) | **morluto/rea** | Neumorphic styling, theme transitions, asset caching, security headers, and improved visual polish | ![Open](https://img.shields.io/badge/Open-00D4FF?style=flat-square) |
+| [Kiwix Chromium-inspired frontend](https://github.com/kiwix/kiwix-desktop/pull/1475) | **kiwix/kiwix-desktop** | Modernized tab management, unified omnibox navigation, and a streamlined sidebar | ![Open](https://img.shields.io/badge/Open-00D4FF?style=flat-square) |
+| [Neumorphic UI and utility tools](https://github.com/Prathvi321/Utility-Box/pull/3) | **Prathvi321/Utility-Box** | Added Base64, URL, hash, CSV tools, animations, and UI polish | ![Merged](https://img.shields.io/badge/Merged-2EA44F?style=flat-square) |
+| [Utility tools expansion](https://github.com/Prathvi321/Utility-Box/pull/2) | **Prathvi321/Utility-Box** | Added converters, service list, anime.js animations, and interface improvements | ![Merged](https://img.shields.io/badge/Merged-2EA44F?style=flat-square) |
+| [Browser utility converters](https://github.com/Prathvi321/Utility-Box/pull/1) | **Prathvi321/Utility-Box** | Added Base64, URL, Hash, and CSV↔JSON browser utilities | ![Merged](https://img.shields.io/badge/Merged-2EA44F?style=flat-square) |
+
+</div>
+
+[View all pull requests](https://github.com/pulls?q=is%3Apr+author%3APrathvi321)
+
+---
+
 ## 🚀 Featured Projects
 
 <div align="center">
 
 | &nbsp; | Project | What it does | Stack |
 |:---:|--------|-------------|-------|
-| ⭐ | **HVEV — Client Production Website** | Real-world production site for a local enterprise, running at ~₹0/month, with a serverless backend on Google Sheets + Resend | `React` `Vercel` `Apps Script` `Resend API` |
-| ⭐ | **[DriftGuard](https://github.com/Prathvi321) — ML Data Validation Framework** | Open-source MLOps package on PyPI for schema validation, null-value analysis, and KS-test-based drift detection | `Python` `Pandas` `SciPy` `Pytest` `PyPI` |
-| ⭐ | **[Utility Box](https://github.com/Prathvi321/Utility-Box) — AI-Powered Multi-Tool** | Multi-utility AI platform combining Gemini-powered chat and image background removal | `React` `Gemini API` `remove.bg API` `Tailwind` |
+| ⭐ | **HVEV — Client Production Website** | Real-world production site for a local enterprise, running at ~₹0/month, with a serverless backend on Google Sheets + Resend | `React` `Vercel` `Apps Script` `Resend` |
+| ⭐ | **[DriftGuard](https://github.com/Prathvi321) — ML Data Validation Framework** | Open-source MLOps package on PyPI for schema validation, null-value analysis, and KS-test-based drift detection | `Python` `SciPy` `Pytest` |
+| ⭐ | **[Utility Box](https://github.com/Prathvi321/Utility-Box) — AI-Powered Multi-Tool** | Multi-utility AI platform combining Gemini-powered chat and image background removal | `React` `Gemini API` `Vite` |
 | ⭐ | **Sagar Sync — Digital Agency Platform** | Premium agency landing page with service catalog, tiered pricing, team profiles, and lead capture | `React` `Vite` `Tailwind` `Netlify Functions` `Gemini API` |
-| 🔧 | **[Git Bridge](https://github.com/Prathvi321/Git-Bridge) — Visual Git Interface** | Desktop GUI wrapping the Git CLI via Python subprocess, built for non-technical users | `Python` `Tkinter` `Shell Automation` |
+| 🔧 | **[Git Bridge](https://github.com/Prathvi321/Git-Bridge) — Visual Git Interface** | Desktop GUI wrapping the Git CLI via Python subprocess, built for non-technical users | `Python` `Tkinter` `Subprocess` |
 | 🔧 | **Raspberry Pi Distance Measurement System** | Hardware-software IoT build measuring distance via ultrasonic sensor with real-time LCD output and noise filtering | `Python` `GPIO` `I2C` `Ultrasonic Sensor` |
 | 🌐 | **[CodeHub](https://github.com/Prathvi321/CodeHub)** | Collaborative code sharing & discovery platform | `JavaScript` |
 | 🌐 | **[Portfolio](https://polymathportfolio.netlify.app/)** | The Polymath's Canvas — personal portfolio site | `JavaScript` |
@@ -217,45 +234,6 @@ Open an issue · Fork a repo · [Connect on LinkedIn](https://www.linkedin.com/i
 </div>
 
 ---
-
-<!-- 
-  ═══════════════════════════════════════════════
-  SNAKE ANIMATION SETUP (one-time, takes 2 min)
-  ═══════════════════════════════════════════════
-
-  1. In THIS repo (Prathvi321/Prathvi321), go to:
-     Settings → Actions → General → set to "Allow all actions"
-
-  2. Create this file in your repo:
-     .github/workflows/snake.yml
-
-  3. Paste this content:
-
-  name: Generate Snake Animation
-  on:
-    schedule:
-      - cron: "0 0 * * *"
-    workflow_dispatch:
-  jobs:
-    generate:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: Platane/snk@v3
-          with:
-            github_user_name: Prathvi321
-            outputs: |
-              dist/github-contribution-grid-snake.svg
-              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        - uses: crazy-max/ghaction-github-pages@v3.1.0
-          with:
-            target_branch: output
-            build_dir: dist
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  4. Run it once manually from Actions tab → "Run workflow"
-  5. The snake will appear automatically after ~1 minute!
--->
 
 <div align="center">
 
