@@ -42,17 +42,76 @@ These are forks in my GitHub account. The links go to my fork; the upstream link
 
 ## 🤝 Pull Requests & Open-Source Contributions
 
+### Recent Contributions
+
+<details>
+<summary><strong>🔀 fix(desktop): exclude deb822 source stanzas disabled with Enabled false</strong></summary>
+
+- **Project:** [morluto/rea](https://github.com/morluto/rea)
+- **PR:** [#12740](https://github.com/morluto/rea/pull/12740)
+- **Change:** Excludes disabled deb822 source stanzas from desktop package configuration parsing.
+
+</details>
+
+<details>
+<summary><strong>🔀 fix(tools): score multi-word queries in discover_tools (#11707)</strong></summary>
+
+- **Project:** [morluto/rea](https://github.com/morluto/rea)
+- **PR:** [#12738](https://github.com/morluto/rea/pull/12738)
+- **Change:** Improves multi-word query ranking in the tool discovery flow.
+
+</details>
+
+<details>
+<summary><strong>🔀 fix(nuget): prevent foreign XML groups from hiding declared dependencies</strong></summary>
+
+- **Project:** [morluto/rea](https://github.com/morluto/rea)
+- **PR:** [#12742](https://github.com/morluto/rea/pull/12742)
+- **Change:** Prevents foreign XML dependency groups from masking declared NuGet dependencies.
+
+</details>
+
+<details>
+<summary><strong>🔀 fix(desktop): support case-insensitive boolean values in desktop entries</strong></summary>
+
+- **Project:** [morluto/rea](https://github.com/morluto/rea)
+- **PR:** [#12739](https://github.com/morluto/rea/pull/12739)
+- **Change:** Adds case-insensitive support for boolean values in desktop entry processing.
+
+</details>
+
+<details>
+<summary><strong>🔀 Modernize UI with Chromium-inspired frontend for enhanced UX</strong></summary>
+
+- **Project:** [kiwix/kiwix-desktop](https://github.com/kiwix/kiwix-desktop)
+- **PR:** [#1475](https://github.com/kiwix/kiwix-desktop/pull/1475)
+- **Change:** Modernizes navigation with browser-style tabs, an omnibox, and a streamlined sidebar.
+
+</details>
+
+<details>
+<summary><strong>🔀 Feature/two portals</strong></summary>
+
+- **Project:** [Prathvi321/DehatArogya](https://github.com/Prathvi321/DehatArogya)
+- **PR:** [#1](https://github.com/Prathvi321/DehatArogya/pull/1)
+- **Change:** Implements the two-portal feature, split across two files and one branch.
+
+</details>
+
+### Full Pull Request List
+
 | Pull request | Project | Contribution |
 |:---|:---|:---|
-| [REA: neumorphic UI, transitions, asset caching & SEO/GEO](https://github.com/morluto/rea/pull/12749) | [morluto/rea](https://github.com/morluto/rea) | Refined website styling and interactions, added asset caching and security headers, and documented LAN preview |
+| [REA: neumorphic UI, transitions, asset caching & SEO/GEO](https://github.com/morluto/rea/pull/12749) | [morluto/rea](https://github.com/morluto/rea) | Refined website styling and interactions, added asset caching and security headers |
 | [REA: deb822 disabled source handling](https://github.com/morluto/rea/pull/12740) | [morluto/rea](https://github.com/morluto/rea) | Fixed handling of disabled deb822 source entries |
 | [REA: multi-word tool search scoring](https://github.com/morluto/rea/pull/12738) | [morluto/rea](https://github.com/morluto/rea) | Improved scoring for multi-word `discover_tools` queries |
 | [REA: NuGet dependency group handling](https://github.com/morluto/rea/pull/12742) | [morluto/rea](https://github.com/morluto/rea) | Prevented foreign XML groups from hiding declared dependencies |
 | [REA: case-insensitive desktop booleans](https://github.com/morluto/rea/pull/12739) | [morluto/rea](https://github.com/morluto/rea) | Added case-insensitive boolean support in desktop entries |
-| [Kiwix Desktop: Chromium-inspired frontend](https://github.com/kiwix/kiwix-desktop/pull/1475) | [kiwix/kiwix-desktop](https://github.com/kiwix/kiwix-desktop) | Proposed browser-style tabs, unified address/search bar, and a streamlined sidebar |
+| [Kiwix Desktop: Chromium-inspired frontend](https://github.com/kiwix/kiwix-desktop/pull/1475) | [kiwix/kiwix-desktop](https://github.com/kiwix/kiwix-desktop) | Proposed browser-style tabs, unified navigation, and a streamlined sidebar |
+| [DehatArogya: two portals](https://github.com/Prathvi321/DehatArogya/pull/1) | [Prathvi321/DehatArogya](https://github.com/Prathvi321/DehatArogya) | Added the feature/two-portals implementation |
 | [Survival-Data: UI and search improvements](https://github.com/PR0M3TH3AN/Survival-Data/pull/1) | [PR0M3TH3AN/Survival-Data](https://github.com/PR0M3TH3AN/Survival-Data) | UI enhancements and search functionality |
-| [Utility Box: tools and UI improvements](https://github.com/Prathvi321/Utility-Box/pull/3) | [Prathvi321/Utility-Box](https://github.com/Prathvi321/Utility-Box) | Added Base64, URL, hash, and CSV tools, animations, and interface polish |
-| [Utility Box: converters and animations](https://github.com/Prathvi321/Utility-Box/pull/2) | [Prathvi321/Utility-Box](https://github.com/Prathvi321/Utility-Box) | Expanded converters and service list, with UI improvements and anime.js animations |
+| [Utility Box: tools and UI improvements](https://github.com/Prathvi321/Utility-Box/pull/3) | [Prathvi321/Utility-Box](https://github.com/Prathvi321/Utility-Box) | Added Base64, URL, hash, and CSV tools, animations, and UI polish |
+| [Utility Box: converters and animations](https://github.com/Prathvi321/Utility-Box/pull/2) | [Prathvi321/Utility-Box](https://github.com/Prathvi321/Utility-Box) | Expanded converters and service list, with animations |
 | [Utility Box: browser utility converters](https://github.com/Prathvi321/Utility-Box/pull/1) | [Prathvi321/Utility-Box](https://github.com/Prathvi321/Utility-Box) | Added Base64, URL, hash, and CSV↔JSON utilities |
 
 [See all my pull requests on GitHub →](https://github.com/pulls?q=is%3Apr+author%3APrathvi321)
